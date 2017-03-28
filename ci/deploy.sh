@@ -36,10 +36,10 @@ mv second-edition/book book/second-edition/
 cd book
 
 git init
-git config user.name "Steve Klabnik"
-git config user.email "steve@steveklabnik.com"
+git config user.name $USERNAME
+git config user.email $EMAIL
 
-git remote add upstream "https://$GH_TOKEN@github.com/rust-lang/book.git"
+git remote add upstream "https://$GH_TOKEN@github.com/lyuha/rustbook-ko.git"
 git fetch upstream
 git reset upstream/gh-pages
 
